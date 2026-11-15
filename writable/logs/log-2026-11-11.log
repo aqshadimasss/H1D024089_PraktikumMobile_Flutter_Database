@@ -1,0 +1,19 @@
+CRITICAL - 2026-11-11 01:54:28 --> Error: Class "App\Models\MRegistrasi" not found
+[Method: POST, Route: registrasi]
+in APPPATH\Controllers\RegistrasiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\RegistrasiController->registrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrasiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-11 01:55:53 --> Error: Class "Config\Database" not found
+[Method: POST, Route: registrasi]
+in SYSTEMPATH\Model.php on line 153.
+ 1 APPPATH\Controllers\RegistrasiController.php(17): CodeIgniter\Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\RegistrasiController->registrasi()
+ 3 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrasiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
